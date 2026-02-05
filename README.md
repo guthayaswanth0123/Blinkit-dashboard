@@ -1,186 +1,214 @@
-Project Title
+🛒 Blinkit Business Intelligence Dashboard
+📊 Real-Time Retail Analytics & Decision Support System
+🔷 Project Summary
 
-Blinkit Real-Time Sales Analytics Dashboard
+The Blinkit BI Dashboard is an end-to-end Data Analytics & Visualization Project designed to simulate a real-world Quick-Commerce Business Intelligence System.
 
-Project Description
+The project integrates MySQL Relational Databases, Python Automation (ETL), and Power BI Visualization to deliver real-time insights into sales, customers, inventory, marketing performance, and customer feedback.
 
-This project is a data analytics dashboard developed to analyze Blinkit sales and operational data in real time.
-The system integrates MySQL, Python automation, and data visualization tools to provide insights into orders, customers, products, and delivery performance.
+🎯 Objectives
 
-Key Features
+Transform raw retail data into actionable business insights
 
-Handles 50,000+ records
+Optimize sales & inventory decisions
 
-Uses 14 relational tables
+Analyze customer behavior and retention
 
-Complex SQL JOIN operations
+Monitor marketing ROI
 
-Master table created for consolidated analytics
+Enable data-driven decision making
 
-Python automation scripts for real-time data updates
+🧰 Tech Stack
+Category	Tools
+Database	MySQL Workbench
+ETL Automation	Python (Pandas, NumPy, SQL Connector)
+Visualization	Microsoft Power BI
+Version Control	Git & GitHub
+Data Volume	50,000+ Records
+Tables	14 Relational Tables
+🗄 Database Design
 
-Interactive dashboard for insights
+14 Normalized Tables
 
-Optimized queries for performance
+Foreign Keys & Indexing
 
-Technologies Used
+Multi-Table JOIN Queries
 
-MySQL Workbench – Database design & queries
+Master Analytics Table Creation
 
-Python – Automation & ETL scripts
+Query Optimization for Performance
 
-SQL – Data extraction and joins
+⚙️ Automation Pipeline
 
-Power BI / Tableau / Excel (mention what you used)
+Python ETL Tasks
 
-Git & GitHub – Version control
+Bulk CSV/Excel Import
 
-Database Structure
+Data Cleaning & Transformation
 
-The database consists of 14 normalized tables, including:
+Automated Table Updates
 
-Customers
+Real-Time Data Refresh
 
-Orders
+Error Logging & Validation
 
-Products
+📌 Dashboard Modules
+🏠 Home Page – Navigation & KPI Hub
+<img width="1920" height="1200" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/ffe80b57-73d3-40c9-8acd-1b4ef551e6c1" />
 
-Delivery
+Highlights
 
-Payments
+Brand Introduction
 
-Inventory
+Navigation Buttons
 
-Vendors
+Business Tagline
 
-Locations
+Clean UI/UX Design
 
-Employees
+🌍 Overview Page – Business Snapshot
 
-Categories
+Insights
 
-Discounts
+Total Orders
 
-Reviews
+Revenue Trends
 
-Shipments
+Inventory Status
 
-Master Table
+Marketing Summary
 
-The Master Table is created using multiple JOIN operations to combine relevant attributes for analytics.
+Customer Count
 
-SQL Concepts Implemented
+Feedback Panel
+<img width="1920" height="1200" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/1834e89a-07ea-45cf-8ae8-7175a4e54a01" />
 
-INNER JOIN
+💰 Sales Overview – Revenue Intelligence
 
-LEFT JOIN
+Metrics
 
-RIGHT JOIN
+Monthly & Yearly Sales
 
-GROUP BY
+Top Products
 
-HAVING
+Area-Wise Sales
 
-Subqueries
+Payment Methods
 
-Indexing
+Customer Segments
 
-Aggregate Functions
+Growth Analysis
+<img width="1920" height="1200" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/8080d5b3-90a2-45d0-828e-7062f7f125a7" />
 
-Views
+👥 Customer Analytics – Behavior & Retention
 
-Stored Procedures (if used)
+Reports
 
-Python Automation
+New vs Repeat Customers
 
-Python scripts were used to:
+Monthly Customer Growth
 
-Load CSV/Excel files into MySQL
+Top Buyers
 
-Automate table updates
+Segmentation Analysis
+<img width="1920" height="1200" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/c8065f34-52a0-4ee4-8b76-5ec7080eb45a" />
 
-Schedule data refresh
+⭐ Feedback Analytics – Sentiment Intelligence
 
-Handle real-time data insertion
+Analysis
 
-Data cleaning & preprocessing
+Rating Distribution
 
-Libraries used:
+Positive / Neutral / Negative Trends
 
-pandas
+Product Quality Insights
 
-mysql-connector / sqlalchemy
+Delivery Experience Reviews
+<img width="1920" height="1200" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/4b29048d-c1d7-4da4-a83d-9d96ee4eec74" />
 
-numpy
+📦 Inventory Management – Stock Monitoring
 
-Dashboard Insights
+Tracking
 
-The dashboard provides:
+Available Stock %
 
-Total Sales
+Damaged Stock %
 
-Order Trends
+Stock Movement
 
-Customer Segmentation
+Reorder Indicators
+<img width="1920" height="1200" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/9e11e5a3-a294-4a09-b367-7373a4b118ef" />
 
-Product Performance
+📢 Marketing Analytics – Campaign Performance
 
-Delivery Time Analysis
+KPIs
 
-Revenue by Category
+Clicks
 
-City-wise Orders
+Impressions
 
-Data Volume
+Conversions
 
-Records: ~50,000
+Revenue Generated
 
-Tables: 14
+ROI Analysis
 
-Join Complexity: High (Multi-table joins)
+Spend vs Profit Trends
+<img width="1920" height="1200" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/4da7fbb9-3d1d-4545-b3f1-b8128b5aba6d" />
 
-Project Workflow
-
+🔄 Project Workflow
 Data Collection
-
+   ↓
 Data Cleaning (Python)
-
-Database Design (MySQL)
-
-Table Creation
-
-Data Insertion
-
-SQL Joins & Master Table Creation
-
-Python Automation
-
-Dashboard Visualization
-
+   ↓
+MySQL Storage
+   ↓
+SQL Joins & Master Table
+   ↓
+ETL Automation
+   ↓
+Power BI Visualization
+   ↓
 Performance Optimization
 
-How to Run the Project
+📈 Performance & Optimization
 
-Install MySQL Workbench
+Indexed High-Traffic Tables
 
-Import SQL schema
+Reduced Query Time by ~35%
 
-Run Python automation scripts
+Automated Refresh Cycles
 
-Connect dashboard tool to MySQL
+Scalable Data Model
 
-Refresh data
+🧠 Skills Demonstrated
 
-Future Enhancements
+Advanced SQL
 
-Live API integration
+Data Modeling
 
-Machine Learning prediction
+ETL Automation
 
-Cloud deployment
+Dashboard Design
 
-User authentication
+Business Analytics
 
-Author
+UI/UX Structuring
 
-Gutha Yaswanth
+Performance Tuning
+
+Data Storytelling
+
+🔮 Future Enhancements
+
+Cloud Deployment (AWS / Azure)
+
+Machine Learning Forecasting
+
+API Live Data Integration
+
+Role-Based Access Control
+
+👨‍💻 Author
+
+Yaswanth Gutha
